@@ -1,10 +1,27 @@
-# Nota sobre o desenvolvimento da solução técnica
+# Image Scraper & AI Description Generator
 
-Este código foi desenvolvido como solução para o desafio técnico da AIAx, implementando um pipeline completo de processamento de dados com as seguintes etapas:
+## Descrição
+Este projeto é uma aplicação desktop Python que permite extrair imagens de páginas web e gerar automaticamente descrições para elas usando a API de visão da OpenAI. A ferramenta oferece uma interface gráfica amigável para facilitar o processo de scraping de imagens e análise de conteúdo visual.
 
-1. **Scraping web** - Extração da imagem da página alvo, com suporte para imagens convencionais e formatos base64 embutidos
-2. **Validação** - Verificação da integridade da imagem baixada antes do processamento
-3. **Processamento via IA** - Envio da imagem para o modelo Florence 2 para análise e geração de legendas detalhadas
-4. **Submissão** - Entrega dos resultados para validação
+## Funcionalidades
 
-A implementação inclui tratamento de erros robusto e logs detalhados em cada etapa do processo para facilitar a depuração, garantindo que o pipeline funcione corretamente mesmo com diferentes formatos de entrada.
+- **Extração de imagens** de qualquer URL acessível publicamente
+- **Suporte para diferentes formatos de imagem** (URLs absolutas, relativas, e formatos base64)
+- **Processamento em paralelo** para não bloquear a interface
+- **Geração automática de descrições** usando modelos de IA de visão computacional
+- **Visualização em tempo real** do progresso e logs
+- **Armazenamento local** das imagens baixadas e suas descrições
+- **Exportação de resultados** em formato JSON para uso posterior
+
+
+## Requisitos
+
+- Python 3.7+
+- Bibliotecas necessárias:
+  - requests
+  - beautifulsoup4
+  - pillow (PIL)
+  - tkinter (normalmente incluído com o Python)
+- Uma API key da OpenAI com acesso aos modelos de visão
+
+**Nota**: Este projeto foi desenvolvido para fins educacionais. Certifique-se de respeitar os termos de serviço dos sites de onde você extrai imagens e os termos de uso da API da OpenAI.
