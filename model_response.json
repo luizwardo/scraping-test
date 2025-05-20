@@ -1,0 +1,27 @@
+{
+  "choices": [
+    {
+      "finish_reason": "stop",
+      "index": 0,
+      "logprobs": null,
+      "message": {
+        "content": "The image shows a group of cattle in a barnyard setting. There are several brown cows lying on the ground, some mid-breed with light and dark patches. One cow in the foreground, standing and bending slightly when looking to the side, appears to be eating or foraging from a pile of hay. Another cow, facing towards the camera, has a white and brown speckled pattern. The background includes a wooden barn structure, a metal gate, and a wooden fence. The weather appears gloomy, suggesting overcast conditions.",
+        "reasoning_content": null,
+        "role": "assistant",
+        "tool_calls": []
+      },
+      "stop_reason": null
+    }
+  ],
+  "created": 1747752648,
+  "id": "chatcmpl-dd3f326caf564cc8a7797aa4d53661df",
+  "model": "microsoft-florence-2-large",
+  "object": "chat.completion",
+  "prompt_logprobs": null,
+  "usage": {
+    "completion_tokens": 109,
+    "prompt_tokens": 1831,
+    "prompt_tokens_details": null,
+    "total_tokens": 1940
+  }
+}
