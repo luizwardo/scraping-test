@@ -1,27 +1,27 @@
 # Image Scraper & AI Description Generator
 
-## Descrição
-Este projeto é uma aplicação desktop Python que permite extrair imagens de páginas web e gerar automaticamente descrições para elas usando a API de visão da OpenAI. A ferramenta oferece uma interface gráfica amigável para facilitar o processo de scraping de imagens e análise de conteúdo visual.
+## Description
+This project is a Python desktop application that allows you to extract images from web pages and automatically generate descriptions for them using the OpenAI vision API. The tool offers a user-friendly graphical interface to streamline the process of image scraping and visual content analysis.
 
-## Funcionalidades
+## Features
 
-- **Extração de imagens** de qualquer URL acessível publicamente
-- **Suporte para diferentes formatos de imagem** (URLs absolutas, relativas, e formatos base64)
-- **Processamento em paralelo** para não bloquear a interface
-- **Geração automática de descrições** usando modelos de IA de visão computacional
-- **Visualização em tempo real** do progresso e logs
-- **Armazenamento local** das imagens baixadas e suas descrições
-- **Exportação de resultados** em formato JSON para uso posterior
+-  Image extraction from any publicly accessible URL
+-  Support for different image formats (absolute URLs, relative paths, and base64 formats)
+-  Parallel processing to avoid blocking the interface
+-  Automatic description generation using computer vision AI models
+-  Real-time progress and log visualization
+-  Local storage of downloaded images and their descriptions
+-  Export of results in JSON format for further use
 
 
-## Requisitos
-
+## Requirements
 - Python 3.7+
-- Bibliotecas necessárias:
-  - requests
-  - beautifulsoup4
-  - pillow (PIL)
-  - tkinter (normalmente incluído com o Python)
-- Uma API key da OpenAI com acesso aos modelos de visão
 
-**Nota**: Este projeto foi desenvolvido para fins educacionais. Certifique-se de respeitar os termos de serviço dos sites de onde você extrai imagens e os termos de uso da API da OpenAI.
+- Required libraries:
+- requests
+- beautifulsoup4
+- pillow (PIL)
+- tkinter (usually included with Python)
+- An OpenAI API key with access to vision models
+
+ This project was developed for educational purposes. Make sure to comply with the terms of service of the websites you scrape images from and the usage policies of the OpenAI API.
